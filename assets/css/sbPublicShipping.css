@@ -1,0 +1,26 @@
+.cart-collaterals table tr,
+.woocommerce-checkout table tr {
+    display: block;
+}
+
+.cart-collaterals table tr.shipping,
+.woocommerce-checkout table tr.shipping {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-collaterals table tr.shipping th,
+.cart-collaterals table tr.shipping td,
+.woocommerce-checkout table tr.shipping th,
+.woocommerce-checkout table tr.shipping td {
+    width: 100%;
+}
+
+#sb-cart-widget-result:not(:empty) {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+#sb-cart-widget-result p {
+    margin: 5px 0;
+}
